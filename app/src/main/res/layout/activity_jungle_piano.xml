@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jungle_bg"
+    android:orientation="vertical"
+    tools:context=".JunglePiano"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notasbgblack"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/logo_notas"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:background="@color/bgKeysAlfa"
+        android:paddingEnd = "5dp"
+        android:layout_weight="1"
+        >
+
+
+        <ImageButton
+            android:id="@+id/ivLeon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyLeonColor"
+            android:layout_weight="1"
+            android:src="@drawable/leon"
+            android:contentDescription="@string/leon"
+            android:scaleType="centerInside"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/ivElefante"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyElefanteColor"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/elefante"
+            android:src="@drawable/elefante"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivBuho"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyBuhoColor"
+            android:layout_weight="1"
+            android:src="@drawable/buho"
+            android:contentDescription="@string/buho"
+            android:scaleType="centerInside"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivOso"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyOsoColor"
+            android:layout_weight="1"
+            android:contentDescription="@string/oso"
+            android:scaleType="centerInside"
+            android:src="@drawable/oso"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivTigre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyTigreColor"
+            android:layout_weight="1"
+            android:contentDescription="@string/tigre"
+            android:scaleType="centerInside"
+            android:src="@drawable/tigre"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivRana"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyRanaColor"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/rana"
+            android:src="@drawable/rana"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivPollito"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/keyPollitoColor"
+            android:layout_weight="1"
+            android:contentDescription="@string/pollito"
+            android:scaleType="centerInside"
+            android:src="@drawable/pollito"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstrumentsPiano"
+    android:background="@drawable/woodenbg"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notasbg"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/logo_notas"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:background="@color/bgKeys"
+        android:paddingEnd = "5dp"
+        android:layout_weight="1"
+        >
+
+
+        <ImageButton
+            android:id="@+id/ivTambot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:src="@drawable/tambor"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/tambor"
+            tools:ignore="ButtonStyle,NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/ivArpa"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/arpa"
+            android:contentDescription="@string/arpa"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivViolin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:src="@drawable/violin"
+            android:contentDescription="@string/violin"
+            android:scaleType="centerInside"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivBanjo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/banjo"
+            android:src="@drawable/banjo"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivSax"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/sax"
+            android:contentDescription="@string/sax"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivTrompeta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/trompeta"
+            android:src="@drawable/trompeta"
+            tools:ignore="ButtonStyle" />
+        <ImageButton
+            android:id="@+id/ivGuitarra"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/bgNormalKeys"
+            android:layout_weight="1"
+            android:contentDescription="@string/guitarra"
+            android:scaleType="centerInside"
+            android:src="@drawable/guitarra"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+</LinearLayout>

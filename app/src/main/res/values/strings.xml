@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PianoGrupo03</string>
+    <string name="lblSelva">PIANO DE LA SELVA</string>
+    <string name="lblNomal">PIANO TRADICIONAL</string>
+    <string name="lblInstrumentos">PIANO DE INSTRUMENTOS</string>
+    <string name="logo_notas">logo_notas</string>
+    <string name="tambor">tambor</string>
+    <string name="arpa">arpa</string>
+    <string name="violin">violin</string>
+    <string name="banjo">banjo</string>
+    <string name="sax">sax</string>
+    <string name="trompeta">trompeta</string>
+    <string name="guitarra">guitarra</string>
+    <string name="leon">leon</string>
+    <string name="elefante">elefante</string>
+    <string name="buho">buho</string>
+    <string name="oso">oso</string>
+    <string name="tigre">tigre</string>
+    <string name="rana">rana</string>
+    <string name="pollito">pollito</string>
+    <string name="nombre">Manuel Antonio \n Viscarra Cadenas</string>
+    <string name="foto_alumno">foto_alumno</string>
+</resources>

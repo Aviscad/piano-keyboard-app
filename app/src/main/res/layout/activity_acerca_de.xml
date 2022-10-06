@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/normal_piano"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".AcercaDe"
+    android:padding="20dp">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foto"
+            android:contentDescription="@string/foto_alumno"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/bgNormalKeys"
+            />
+
+
+</LinearLayout>
